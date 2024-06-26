@@ -12,7 +12,7 @@ I want to become a Frontend-developer. I’ve understood that my university prog
 * CSS;
 * JavaScript(Basic);
 * basic Git & GitHub;
-* Figma, Avocode;
+* Figma, Avocode.
 ## Code Example
 ```
 function setUserName() {
@@ -22,7 +22,10 @@ function setUserName() {
 }
 ```
 ## Education 
-* **University:**  Belarusian State University of Informatics and Radioelectronics;
+* **University:**  Belarusian State University of Informatics and Radioelectronics.
 * **Courses:**
     * Code Basics - HTML, CSS, JavaScript;
-    * W3Schools - HTML, CSS;
+    * W3Schools - HTML, CSS.
+## Languages
+* **Russian** - native speaker.
+* **English** - A1;
