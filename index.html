@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header shadow">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#contacts" class="nav__item-link">Contacts</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__item-link">Skills</a></li>
+          <li class="nav__item"><a href="#languages" class="nav__item-link">Languages</a></li>
+          <li class="nav__item"><a href="#about" class="nav__item-link">About me</a></li>
+          <li class="nav__item"><a href="#education" class="nav__item-link">Education</a></li>
+          <li class="nav__item"><a href="#code" class="nav__item-link">Code Example</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__item-link">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main shadow">
+      <div class="left-columns">
+        <section class="avatar">
+          <img class="avatar__img" src="./assets/avatar.svg" alt="avatar">
+          <h1 class="avatar__title">Alexander Mazurenko </h1>
+          <h3 class="avatar__subtitle">Frontend developer (Beginner)</h3>
+        </section>
+        <section class="section contacts" id="contacts">
+          <h2 class="section__title section__title-left">Contacts</h2>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <img src="./assets/svg/phone.svg" alt="">
+              <a class="contact__item-link" href="tel:+375447396740">+375 44 739 67 40</a>
+            </li>
+            <li class="contact__item">
+              <img src="./assets/svg/email.svg" alt="">
+              <a class="contact__item-link" href="mailto:nalorakk13@gmail.com">nalorakk13@gmail.com</a>
+            </li>
+            <li class="contact__item">
+              <img src="./assets/svg/linkedin.svg" alt="">
+              <a class="contact__item-link"
+                href="https://www.linkedin.com/in/alexander-mazurenko-464b76183/">LinkedIn</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section skills" id="skills">
+          <h2 class="section__title section__title-left">skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML;</li>
+            <li class="skills__item">CSS;</li>
+            <li class="skills__item">JavaScript(Basic);</li>
+            <li class="skills__item"> basic Git & GitHub;</li>
+            <li class="skills__item"> Figma, Avocode.</li>
+          </ul>
+        </section>
+        <section class="section languages" id="languages">
+          <h2 class="section__title section__title-left">languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">Russian (native);</li>
+            <li class="languages__item">English(A1).</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-columns">
+        <section class="section about" id="about">
+          <h2 class="section__title">About me</h2>
+          <p class="section__text">
+            I want to become a Frontend-developer. I’ve understood that my university program is too wide and cannot
+            give me enough material in this sphere. So I started watching some courses on YouTube about web-development.
+            Then came across the rsschool youtube channel. So, now I’m here, full of desire to learn.
+          </p>
+        </section>
+        <section class="section education" id="education">
+          <h2 class="section__title">education</h2>
+          <h3 class="section__subtitle">University:</h3>
+          <p>Belarusian State University of Informatics and Radioelectronics.</p>
+          <h3 class="section__subtitle">Courses:</h3>
+          <ul class="education__list">
+            <li class="education__item">Code Basics - HTML;</li>
+            <li class="education__item">Code Basics - CSS;</li>
+            <li class="education__item">Code Basics - JavaScript;</li>
+            <li class="education__item"> W3Schools - HTML;</li>
+            <li class="education__item"> W3Schools - CSS.</li>
+          </ul>
+        </section>
+        <section class="section code-example" id="code">
+          <h2 class="section__title">Code example</h2>
+          <pre class="code-example__text">
+            <code>
+function setUserName() {
+  var myName = prompt("Please enter your name.");
+  localStorage.setItem("name", myName);
+  myHeading.textContent = "Mozilla is cool, " + myName;
+}
+            </code>
+          </pre>
+        </section>
+        <section class="section projects" id="projects">
+          <h2 class="section__title">My projects</h2>
+          <p>Soon...</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer shadow">
+      <a href="https://github.com/nalorakk13"><img class="footer__link-git" src="./assets/svg/github.svg"
+          alt="GitHub link"></a>
+      <span class="footer__text">&copy;2024</span>
+      <a href="https://rs.school/courses/javascript-ru"><img class="footer__link-rs"
+          src="./assets/svg/rs-school-logo.svg" alt="rsschool link"> </a>
+
+    </footer>
+  </div>
+</body>
+
+</html>
