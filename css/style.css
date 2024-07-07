@@ -68,7 +68,6 @@ body {
   width: 40%;
   background-color: var(--flax-smoke-color);
   color: white;
-  
   padding: 30px;
 }
 
@@ -172,4 +171,29 @@ body {
 
 .code-example__text {
   background-color: var(--bg-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: var(--dark-gray-color);
+  margin-top: 30px;
+  color: white;
+  padding: 0 10px;
+}
+
+.footer__link-git {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__link-rs {
+  width: 76px;
+  height: 26px;
+}
+
+.shadow {
+  box-shadow: 25px 3px 30px 1px rgba(34, 60, 80, 0.33);
 }
