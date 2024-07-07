@@ -22,6 +22,44 @@ body {
   margin: 0px auto;
 }
 
+.header {
+  height: 50px;
+  margin-bottom: 30px; 
+}
+
+.nav {
+  height: 100%;
+  background-color: var(--dark-gray-color);
+  padding: 0 10px;
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.nav__item {
+  height: 100%;
+}
+
+.nav__item-link {
+  color: var(--bg-color);
+  display: block;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+
+.nav__item-link:hover {
+  color: var(--flax-smoke-color);
+}
+
 .main {
   display: flex;
 }
@@ -102,6 +140,10 @@ body {
 .contact__item-link {
   color: white;
   text-decoration: none;
+  transition: all ease 0.5s
+}
+.contact__item-link:hover {
+  color: var(--dark-gray-color);
 }
 
 .contact__item {
