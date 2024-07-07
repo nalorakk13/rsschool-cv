@@ -127,3 +127,7 @@ body {
 .education__item {
   margin-bottom: 15px;
 }
+
+.code-example__text {
+  background-color: var(--bg-color);
+}
