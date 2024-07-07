@@ -76,6 +76,12 @@ body {
   border-bottom: 2px solid var(--light-gray-color) ;
 }
 
+.section__subtitle {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
 .section__title-left {
   text-align: center; 
   padding-bottom: 5px;
@@ -115,5 +121,9 @@ body {
 }
 
 .languages__item {
+  margin-bottom: 15px;
+}
+
+.education__item {
   margin-bottom: 15px;
 }
