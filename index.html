@@ -13,7 +13,7 @@
 
 <body>
   <div class="container">
-    <header class="header">
+    <header class="header shadow">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#contacts" class="nav__item-link">Contacts</a></li>
@@ -27,12 +27,12 @@
       </nav>
     </header>
 
-    <main class="main">
+    <main class="main shadow">
       <div class="left-columns">
         <section class="avatar">
           <img class="avatar__img" src="./assets/avatar.svg" alt="avatar">
           <h1 class="avatar__title">Alexander Mazurenko </h1>
-          <h3 class="avatar__subtitle">Frontend developer (Beginner)</h3>
+          <h2 class="avatar__subtitle">Frontend developer (Beginner)</h2>
         </section>
 
         <section class="section contacts" id="contacts">
@@ -40,7 +40,7 @@
           <ul class="contact__list">
             <li class="contact__item">
               <img src="./assets/svg/phone.svg" alt="">
-              <a class="contact__item-link" href="tel:+375 44 739 67 40  ">+375 44 123 45 67 </a>
+              <a class="contact__item-link" href="tel:+375441234567  ">+375 44 123 45 67 </a>
             </li>
             <li class="contact__item">
               <img src="./assets/svg/email.svg" alt="">
@@ -119,6 +119,14 @@ function setUserName() {
         </section>
       </div>
     </main>
+
+    <footer class="footer shadow">
+      <a href="https://github.com/nalorakk13" target="_blank"><img class="footer__link-git"
+          src="./assets/svg/github.svg" alt="GitHub link"></a>
+      <span class="footer__text">&copy;2026</span>
+      <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img class="footer__link-rs"
+          src="./assets/svg/rs-school-logo.svg" alt="rsschool link"> </a>
+    </footer>
   </div>
 </body>
 
