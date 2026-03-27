@@ -15,3 +15,12 @@ I want to become a Frontend-developer. I’ve understood that my university prog
 * JavaScript(Basic);
 * basic Git & GitHub;
 * Figma, Avocode;
+
+## Code Example
+```
+function setUserName() {
+  var myName = prompt("Please enter your name.");
+  localStorage.setItem("name", myName);
+  myHeading.textContent = "Mozilla is cool, " + myName;
+}
+```
