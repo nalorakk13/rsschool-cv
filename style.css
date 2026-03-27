@@ -21,6 +21,11 @@ body {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 1024px;
   margin: 0px auto;
@@ -92,7 +97,6 @@ body {
 
 .contact__item-link {
   color: white;
-  text-decoration: none;
 }
 
 .contact__item {
@@ -112,4 +116,12 @@ body {
 
 .skills__item, .languages__item, .education__item {
   margin-bottom: 15px;
+}
+
+.code-example__text {
+  background-color: var(--bg-color);
+}
+
+.projects__item {
+  
 }
