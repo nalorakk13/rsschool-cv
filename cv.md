@@ -30,3 +30,7 @@ function setUserName() {
 * **Courses:**
     * Code Basics - HTML, CSS, JavaScript;
     * W3Schools - HTML, CSS;
+
+## Languages
+* **Russian** - native speaker.
+* **English** - A1;
