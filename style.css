@@ -16,9 +16,10 @@ html {
 }
 
 body {
-  background-color: var(--bg-color);
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  background-color: var(--bg-color);
 }
 
 a {
@@ -29,6 +30,40 @@ a {
 .container {
   max-width: 1024px;
   margin: 0px auto;
+}
+
+.header {
+  height: 50px;
+  margin-bottom: 30px; 
+}
+
+.nav {
+  height: 100%;
+  background-color: var(--dark-gray-color);
+  padding: 0 10px;
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.nav__item {
+  height: 100%;
+}
+
+.nav__item-link {
+  color: var(--bg-color);
+  display: block;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  transition: all ease 0.5s;
 }
 
 .main {
