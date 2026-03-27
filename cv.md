@@ -24,3 +24,9 @@ function setUserName() {
   myHeading.textContent = "Mozilla is cool, " + myName;
 }
 ```
+
+## Education 
+* **University:**  Belarusian State University of Informatics and Radioelectronics;
+* **Courses:**
+    * Code Basics - HTML, CSS, JavaScript;
+    * W3Schools - HTML, CSS;
