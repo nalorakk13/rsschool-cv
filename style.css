@@ -110,6 +110,6 @@ body {
   border-radius: 50%;
 }
 
-.skills__item, .languages__item {
+.skills__item, .languages__item, .education__item {
   margin-bottom: 15px;
 }
