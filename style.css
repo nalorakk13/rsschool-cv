@@ -18,6 +18,7 @@ html {
 body {
   background-color: var(--bg-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .container {
@@ -67,10 +68,14 @@ body {
   font-weight: 400;
 }
 
+.section {
+  margin-bottom: 30px;
+}
+
 .section__title {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 20px;
   border-bottom: 2px solid var(--light-gray-color) ;
 }
 
@@ -103,4 +108,8 @@ body {
   background-color: white;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+.skills__item, .languages__item {
+  margin-bottom: 15px;
 }
