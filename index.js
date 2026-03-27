@@ -1,0 +1,10 @@
+console.log(`1. The student submits a link to their CV deployed on gh-pages in the rs app (10/10);
+             2. Valid markup (10/10);
+             3. Semantic markup (20/20);
+             4. Footer includes a link to the author's GitHub, the year of creation, the course logo, and a link to the course (10/10);
+             5. CSS styles are used for formatting the CV (10/10);
+             6. When the browser window is resized, the formatting remains centered horizontally rather than shifting to the side (10/10);
+             7. The CV page includes a photo or avatar of the author, with no distortion of proportions, and with an alt attribute for the image (10/10);
+             8. Navigation, contact information, and a list of skills are formatted as a list (10/10);
+             9. Content of the CV (30/30);
+             10.The CV is written in English (10/10).`);
